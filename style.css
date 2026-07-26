@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-break: auto;
+}
+
+.nav-container{
+  display: flex;
+  position: relative;
+  background-color: rgb(255, 253, 253);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-container{
+  position:absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 50px;
+  right: 40px;
+  font-size: 24px;
+  font-family: 1A1A1A;
+}
+
+.logo-container img{
+  height: 70px;
+  width: auto;
+  overflow: hidden;  /* clips anything bigger than the div */
+}
+
+.second-half {
+  position: relative; 
+}
+
+.landing-container {
+  width: 100%;
+  overflow: hidden;
+  height: 813px;
+}
+
+.landing-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-landing {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.text-landing h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700; 
+  font-size: 80px;
+  color: white;
+  margin-bottom: 18px;
+}
+
+.text-landing .txt1 {
+  font-family: system-ui;
+  font-weight: 400;
+  font-size: 29px;
+  color: white;
+}
+
+.text-landing .txt2 {
+  font-family: system-ui;
+  font-weight: 400;
+  font-size: 29px;
+  color: white;
+}
+
+.Premuim-txt:hover,
+.Discover-txt:hover,
+.Help-txt:hover,
+.Download-txt:hover {
+  color: #1ED760;
+  cursor: pointer;
+}
+
+.logo-container:hover{
+  cursor: pointer;
+}

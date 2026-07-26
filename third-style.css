@@ -1,0 +1,50 @@
+
+.main-container{
+  background-color: #00B172;
+  display: grid;
+  grid-template-columns: 1.2fr auto 1fr;
+  align-items: center;
+  max-width: 1800px;      /* caps how wide the green box gets */
+  margin: 60px auto;      /* centers it + adds white space above/below */
+  padding: 90px 60px;
+  gap: 40px;
+  border-radius: 3px;     /* optional — reference image looks slightly rounded */
+}
+
+.text-content h2 {
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid white;
+  display: inline-block;   /* makes the underline hug the text width, not full row */
+}
+
+.text-content h3 {
+  color: white;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.text-content p {
+  color: rgba(255,255,255,0.85);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.ye{
+  justify-self: center;   /* centers phone in its grid column */
+  max-width: 400px;
+  width: 100%;
+}
+
+.spotify-circle-logo {
+ width: 175px;
+justify-self: center;
+}
+
+.spotify-circle-logo:hover{
+  cursor:pointer;
+}

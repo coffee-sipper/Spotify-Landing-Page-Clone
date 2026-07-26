@@ -1,0 +1,51 @@
+.header-txt{
+   display: block;
+  width: fit-content;
+  margin: 42px auto 90px auto;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 3px solid #1ED760;
+  padding-bottom: 10px;
+}
+
+.features-section{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 1500px;   /* wider container = items spread further apart */
+  margin: 0 auto;
+  padding: 0 60px;      /* pushes first/last items in slightly from the edges */
+  gap: 0;
+  margin-bottom: 200px;
+}
+
+.feature-item{
+  align-items: center;
+  width: 260px;
+  width: auto;
+}
+.piclogo {
+  display: block;       
+  height: 150px;
+  width: auto;
+  margin: 0 auto 15px auto;
+}
+
+.feature-title {
+  text-align: center;
+  color: #00B172;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 29px;
+  white-space: nowrap;
+}
+
+.feature-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
+
+
